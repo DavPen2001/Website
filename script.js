@@ -17,3 +17,6 @@ function showText4(elem){
     document.getElementById("4");
     elem.innerHTML=("<center>Tesla, Inc. (formerly Tesla Motors) is an American automaker, energy storage company, and solar panel manufacturer based in Palo Alto, California. Founded in 2003, the company specializes in electric cars, lithium-ion battery energy storage, and residential photovoltaic panels (through the subsidiary company SolarCity). The additional products Tesla sells include the Tesla Powerwall and Powerpack batteries, solar panels and solar roof tiles. CEO Elon Musk said that he envisions Tesla as a technology company and independent automaker, aimed at eventually offering electric cars at prices affordable to the average consumer. The company was named after the Serbian-American electrical engineer and physicist Nikola Tesla by company co-founders Martin Eberhard and Marc Tarpenning.The company's Model S was the world's best-selling plug-in electric car in 2015 and 2016. Global sales of the Model S reached 150,000 units in November 2016. In September 2015 the company released its Model X, a crossover SUV. The Model 3 was released in July 2017. Tesla global sales passed 250,000 units in September 2017.</center>      ");
 }
+function playSound(elem){
+	document.getElementById("elon").play();
+}
